@@ -236,3 +236,12 @@ a{
     justify-content: center;
     text-align: center;
 }
+
+a > button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ddd1d5;
+    background-color: #007bff;
+    color: white;
+}
