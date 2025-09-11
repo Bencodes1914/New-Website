@@ -1,0 +1,36 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Projects .projectsDisplay{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.projectsIntro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    margin: 0px 40px 2rem;
+}
+
+#Projects{
+    display: flex;
+    margin: 0px 0px 8rem;
+    gap: 1rem;
+}
+
+#Projects .projectsIntro{
+    max-width: 40%;
+}
+
+#Projects .projectsIntro p{
+    font-size: 19px;
+    max-width: 90%;
+}
+
+.projectsDisplay{
+    display: flex;
+    flex-direction: column;
+}

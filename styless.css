@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contact-me {
+    background-color: #f7f7f7;
+    padding-bottom: 50px ;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .method {
+    flex-basis: 45%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .method i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form {
+    margin-top: 40px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
