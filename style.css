@@ -245,3 +245,44 @@ a > button{
     background-color: #007bff;
     color: white;
 }
+
+#contact{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.get-in-touch {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .container > h2{
+    margin: 10px;
+  }
+  
+.contact-info {
+    margin-bottom: 20px;
+  }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+label {
+    margin-bottom: 10px;
+  }
+  
+ input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
