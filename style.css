@@ -208,8 +208,9 @@ a{
 
 .projects-done{
     display: grid;
-    margin-left: 50px;
-    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
     gap: 1rem;
     align-items: center;
@@ -219,14 +220,19 @@ a{
 
 .project-image{
     border: 1px solid rgba(109, 99, 99, 0.2);
-    padding: 10px;
     border-radius: 20px;
-    width: 600px;
-    height: 420px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
 }
 
 .project-image > img{
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+}
+
+.project-image > a{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
