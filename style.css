@@ -242,7 +242,7 @@ a > button{
     height: 40px;
     border-radius: 20px;
     border: 1px solid #ddd1d5;
-    background-color: #007bff;
+    background-color: #28a745;
     color: white;
 }
 
@@ -297,6 +297,7 @@ label {
   align-items: flex-start;
   gap: 20px;
   border-top: 2px solid #1e3a8a; 
+  margin-top: 20px;
 }
 
 .footer-content {
@@ -317,7 +318,7 @@ label {
   gap: 15px;
 }
 
-.aside-content a img {
+.aside-content .footer-images a img {
   width: 28px;
   height: 28px;
   margin-right: 12px;
