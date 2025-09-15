@@ -60,3 +60,69 @@ body {
     cursor: pointer;
   }
   
+@media (max-width: 768px) {
+    #contact-me {
+        padding: 2rem 1rem;
+    }
+    
+    .container {
+        padding: 2rem;
+        border-radius: 15px;
+    }
+    
+    .container h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact-methods {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .method {
+        padding: 1.5rem;
+    }
+    
+    .method i {
+        font-size: 2rem;
+    }
+    
+    .method h3 {
+        font-size: 1.2rem;
+    }
+    
+    .method p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    .container h2 {
+        font-size: 1.8rem;
+    }
+    
+    .contact-methods {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .method {
+        padding: 1.2rem;
+    }
+    
+    .method i {
+        font-size: 1.8rem;
+    }
+    
+    .fas {
+        width: 35px;
+        height: 35px;
+        font-size: 1.3rem;
+    }
+}  
