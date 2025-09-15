@@ -34,3 +34,96 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 768px) {
+    #Projects {
+        padding: 1rem;
+    }
+    
+    .projectsIntro {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .projectsIntro h2 {
+        font-size: 2rem;
+    }
+    
+    .projectsIntro p {
+        font-size: 1rem;
+    }
+    
+    .projectsDisplay {
+        gap: 1.5rem;
+    }
+    
+    .projectsDisplay ul {
+        padding: 2rem;
+        border-left-width: 3px;
+    }
+    
+    .projectsDisplay ul li {
+        font-size: 1.2rem;
+        padding-left: 1.2rem;
+    }
+    
+    .projectsDisplay ul p {
+        font-size: 0.95rem;
+        text-align: left;
+    }
+    
+    .liveLink {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #Projects {
+        padding: 0.5rem;
+    }
+    
+    .projectsIntro {
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    
+    .projectsIntro h2 {
+        font-size: 1.8rem;
+    }
+    
+    .projectsIntro p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    
+    .projectsDisplay ul {
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
+    
+    .projectsDisplay ul li {
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+    
+    .projectsDisplay ul li:before {
+        font-size: 1rem;
+    }
+    
+    .projectsDisplay ul p {
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .projectsDisplay ul p:last-of-type {
+        padding: 0.6rem;
+        font-size: 0.85rem;
+    }
+    
+    .liveLink {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.85rem;
+        border-radius: 20px;
+    }
+}
