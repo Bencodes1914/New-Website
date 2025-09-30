@@ -238,7 +238,7 @@ a{
     text-align: center;
 }
 
-a > button{
+a > button, .sendMessagebtn{
     width: 150px;
     height: 40px;
     border-radius: 20px;
@@ -440,11 +440,19 @@ label {
 @media (min-width: 1200px) {
     body {
         max-width: 1200px;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
     header {
         padding: 20px 80px;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 2rem;
     }
 
     #home {
@@ -486,3 +494,4 @@ label {
         padding: 60px 100px;
     }
 }
+
