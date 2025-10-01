@@ -3,7 +3,7 @@
   form.addEventListener("submit", function(e) {
     e.preventDefault();
 
-    alert("✅ Thank you, your message has been sent! We'll get back to you shortly.");
+    alert("✅ Thank you, your message has been sent! We'll get back to you shortly through an email.");
 
     form.reset();
   });
