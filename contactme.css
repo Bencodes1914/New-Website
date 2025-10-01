@@ -58,3 +58,54 @@
     .contact-card a:hover {
       color: #1d4ed8;
     }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .contact-container {
+        gap: 20px;
+        padding: 15px;
+      }
+
+      .contact-card {
+        padding: 20px;
+      }
+
+      .contact-card i {
+        font-size: 1.8rem;
+      }
+
+      .contact-card h3 {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+        margin: 20px 0 15px;
+      }
+
+      .contact-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+
+      .contact-card {
+        padding: 18px;
+      }
+
+      .contact-card i {
+        font-size: 1.6rem;
+      }
+
+      .contact-card h3 {
+        font-size: 1rem;
+      }
+
+      .contact-card a {
+        font-size: 0.9rem;
+      }
+    }
