@@ -1,128 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
 
-#contact-me {
-    background-color: #f7f7f7;
-    padding-bottom: 50px ;
-    padding-top: 20px;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .contact-methods {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .method {
-    flex-basis: 45%;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .method i {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  #contact-form {
-    margin-top: 40px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  button[type="submit"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-@media (max-width: 768px) {
-    #contact-me {
-        padding: 2rem 1rem;
+    h1 {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-size: 2.2rem;
+      color: #222;
     }
-    
-    .container {
-        padding: 2rem;
-        border-radius: 15px;
-    }
-    
-    .container h2 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-    
-    .contact-methods {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1.5rem;
-    }
-    
-    .method {
-        padding: 1.5rem;
-    }
-    
-    .method i {
-        font-size: 2rem;
-    }
-    
-    .method h3 {
-        font-size: 1.2rem;
-    }
-    
-    .method p {
-        font-size: 0.9rem;
-    }
-}
 
-@media (max-width: 480px) {
-    .container {
-        padding: 1.5rem;
-        margin: 1rem;
+    .contact-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
     }
-    
-    .container h2 {
-        font-size: 1.8rem;
+
+    .contact-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-    
-    .contact-methods {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
     }
-    
-    .method {
-        padding: 1.2rem;
+
+    .contact-card i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #4f46e5;
     }
-    
-    .method i {
-        font-size: 1.8rem;
+
+    .contact-card h3 {
+      margin: 10px 0;
+      font-size: 1.2rem;
+      color: #111;
     }
-    
-    .fas {
-        width: 35px;
-        height: 35px;
-        font-size: 1.3rem;
+
+    .contact-card a {
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: 500;
+      transition: color 0.2s;
     }
-}  
+
+    .contact-card a:hover {
+      color: #1d4ed8;
+    }
