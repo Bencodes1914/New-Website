@@ -58,7 +58,9 @@
         </div>
         
         <div class="location">
-            <h3>Location 📍: Lagos, Nigeria</h3>
+            <h3>Location 
+                <img src="./images/location.png" alt="Location Image" width="20px" height="20px"/>
+                : Lagos, Nigeria</h3>
         </div>
         
         <div class="education">
@@ -71,37 +73,37 @@
         <p>Here are some of my personal projects that I have worked on:</p>
         <div class="projects-done">
             <div class="project-image">
-                <img src="./images/project-one.png"/>
+                <img src="./images/project-one.png" alt="Project One"/>
                 <h3>Arise Webpage</h3>
                 <p>Arise is a company that designs websites that attract and engage customers giving them what they want and when thet want it.</p>
                 <a href="http://new-arise-page.vercel.app/">View Live Page</a>
             </div>
             <div class="project-image">
-                <img src="./images/project-two.png"/>
+                <img src="./images/project-two.png" alt="Project Two"/>
                 <h3>NEXUS Digital</h3>
                 <p>NEXUS Digital crafts impossible digital experiences that transcend reality and redefine what's possible in the digital realm.</p>
                 <a href="https://animation-test-theta.vercel.app/">View Live Page</a>
             </div>
             <div class="project-image">
-                <img src="./images/project-three.png"/>
+                <img src="./images/project-three.png" alt="Project Three"/>
                 <h3>INC Investment & Consulting</h3>
                 <p>INC Investment & Consulting ensures successful investing helping to manage risks.</p>
                 <a href="https://investment-and-consulting.vercel.app/">View Live Page</a>
             </div>
             <div class="project-image">
-                <img src="./images/project-four.png"/>
+                <img src="./images/project-four.png" alt="Project Four"/>
                 <h3>Alpha Dog Kennel</h3>
                 <p>The Alpha Dog Kennel website contains essential information about dogs, showcasing different breeds.</p>
                 <a href="https://dog-webpage.vercel.app/">View Live Page</a>
             </div>
              <div class="project-image">
-                <img src="./images/project-five.png"/>
+                <img src="./images/project-five.png" alt="Project Five"/>
                 <h3>A Tech Blog Page</h3>
                 <p>A Tech Blog Page that compiles and  displays different blog posts in relations to tech.</p>
                 <a href="https://blog-site-sigma-five.vercel.app/">View Live Page</a>
             </div>
             <div class="project-image">
-                <img src="./images/project-six.png"/>
+                <img src="./images/project-six.png" alt="Project Six"/>
                 <h3>A Desserts Menu</h3>
                 <p>This webpage for a restaurant displays different optional delicacies that individuals would be able to order and it would be delivered to them.</p>
                 <a href="https://dessert-menu-nu.vercel.app/">View Live Page</a>
@@ -119,18 +121,17 @@
                 <p>Email: <a href="https://workspace.google.com/intl/en-US/gmail/">My G-mail</a></p>
                 <p>Phone: + (234) 904-959-0780</p>
             </div>
-            <form class="contact-form" action="sendMessage.html" method="get">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit" class="sendMessagebtn">Send Message</button>
-            </form>
+            <form class="contact-form" id="contactForm" method="get">
+    <input type="text" id="name" name="name" placeholder="Your Name..." required>
+    
+    <input type="email" id="email" name="email" placeholder="Your Email..." required>
+    
+    <textarea id="message" name="message" placeholder="Your Message..." required></textarea>
+
+    <button type="submit" class="sendMessagebtn">Send Message</button>
+</form>
+
+
         </div>
     </section>
     
@@ -162,4 +163,5 @@
         <p>&copy; Nwankwor Benjamin. All rights reserved.</p>
     </div>
 </footer>
+<script src="script.js"></script>
 </html>
